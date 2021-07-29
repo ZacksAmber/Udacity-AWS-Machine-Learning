@@ -11,7 +11,7 @@ Right now, not all of the tests should pass. Fix the function to pass all its te
 ---
 
 ![](https://raw.githubusercontent.com/ZacksAmber/PicGo/master/img/20210728235834.png)
-<center>Unit test before bug-fixed<center>
+<center>Unit test before bug-fixed</center>
 
 ![](https://raw.githubusercontent.com/ZacksAmber/PicGo/master/img/20210729000123.png)
-<center>Unit test after bug-fixed<center>
+<center>Unit test after bug-fixed</center>
