@@ -384,7 +384,7 @@ deactivate
 
 ## Supporting Materials
 
-- [Exercise - Exercise: Making a package and pip installing]()
+- [Exercise - Making a package and pip installing](https://github.com/ZacksAmber/Udacity-AWS-Machine-Learning/tree/main/Lesson6/Exercise%20-%20Making%20a%20package%20and%20pip%20installing)
 - [Generaldistribution](https://video.udacity-data.com/topher/2021/April/60785584_generaldistribution/generaldistribution.py)
 - [Gaussiandistribution](https://video.udacity-data.com/topher/2021/April/60785598_gaussiandistribution/gaussiandistribution.py)
 - [3b Answer Python Package](https://video.udacity-data.com/topher/2021/April/6078561d_3b-answer-python-package/3b-answer-python-package.zip)
