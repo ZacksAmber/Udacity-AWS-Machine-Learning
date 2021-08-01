@@ -1,13 +1,14 @@
 ## Fix bug
 
-Once you copy and paste the required files and folders in a directory, run `tree` to list contents of directories in a tree-like format.
 Make sure your **Terminal** or **Console** is in the top level of the two files and the one directory.
+
+Once you copy and paste the required files and folders in a directory, run command `tree` to list contents of directories in a tree-like format.
 
 ```sh CLI
 tree
 ```
 
-If you don't have a tree command, [click here to install it.](https://www.geeksforgeeks.org/tree-command-unixlinux/)
+> If you don't have a tree command, [click here to install it.](https://www.geeksforgeeks.org/tree-command-unixlinux/)
 
 Your directory structure should like the following:
 
@@ -23,9 +24,11 @@ Your directory structure should like the following:
 └── generaldistribution.py
 ```
 
-Now we need fix the bugs:
+Now we need to fix the bugs:
 - Rename `gaussiandistribution.py` to `Gaussiandistribution.py`; 
 - Rename `generaldistribution.py` to `Generaldistribution.py`
+
+Run the following commands:
 
 ```sh CLI
 mv gaussiandistribution.py Gaussiandistribution.py
@@ -215,10 +218,9 @@ As you can see, now the directory `3a_python_package` has the same structure as 
 
 ---
 
-### 5. Update two modules
+### 5. Update the module `Gaussiandistribution.py`
 
-Since the Python script `Gaussiandistribution.py` was not designed for uploading to PyPI.
-We need to update the code.
+Since the Python script `Gaussiandistribution.py` was not designed for uploading to PyPI, we need to update the code.
 
 `Gaussiandistribution.py` old code:
 
@@ -235,6 +237,8 @@ import math
 import matplotlib.pyplot as plt
 from .Generaldistribution import Distribution
 ```
+
+The `.` in front of `Generaldistribution` means `Generaldistribution.py` is in the same directory as `Gaussiandistribution.py`.
 
 ---
 
