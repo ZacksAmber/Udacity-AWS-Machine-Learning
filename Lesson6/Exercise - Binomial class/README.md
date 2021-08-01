@@ -258,6 +258,6 @@ deactivate
 
 ## Supporting Materials
 
-- [Exercise - Binomial class]()
+- [Exercise - Binomial class](https://github.com/ZacksAmber/Udacity-AWS-Machine-Learning/tree/main/Lesson6/Exercise%20-%20Binomial%20class)
 - [4a Binomial Package](https://video.udacity-data.com/topher/2021/April/60785eec_4a-binomial-package/4a-binomial-package.zip)
 - [4b Answer Binomial Package](https://video.udacity-data.com/topher/2021/April/60786075_4b-answer-binomial-package/4b-answer-binomial-package.zip)
